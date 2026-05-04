@@ -24,6 +24,7 @@
 | **Estudiante** | Jhoan Rojas |
 | **Asignatura** | Teoría de la Programación |
 | **Ciclo** | Primer ciclo |
+| **Periódo** |  marzo - agosto 2026 |
 | **Docente** | Ing. Lissette Lopéz |
   
 ---
