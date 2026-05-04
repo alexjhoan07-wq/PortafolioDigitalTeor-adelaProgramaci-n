@@ -45,6 +45,9 @@ Elaborar un Portafolio Digital que registre y organice las actividades de la Uni
 **Link de la Unidad 1:**
 [ Ver Unidad 1](https://github.com/alexjhoan07-wq/Portafolio-Digital-de-Aprendizaje-Teoria-de-la-Programacion/blob/main/Unidad.md)
 
+## Declaración de Uso de IA Generativa
+Declaro haber utilizado herramientas de Inteligencia Artificial generativa como recurso de acompañamiento y refuerzo en el proceso de aprendizaje, sin emplearlas para sustituir mi propio trabajo académico.
+
 
 <div align="center">
 
