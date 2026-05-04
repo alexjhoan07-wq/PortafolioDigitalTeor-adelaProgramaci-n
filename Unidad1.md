@@ -1,6 +1,6 @@
 <div align="center">
 
-# 📖 Unidad 1 – Fundamentos de Programación
+#  Unidad 1 – Fundamentos de Programación
 
 ![PseInt](https://img.shields.io/badge/Pseudoc%C3%B3digo-PseInt-f39c12?style=flat-square)
 ![C](https://img.shields.io/badge/Lenguaje-C-00599C?style=flat-square&logo=c)
@@ -10,31 +10,28 @@
 
 ---
 
-## 📝 Contenidos Teóricos
+##  Contenidos Teóricos
 
-### 🔷 Algoritmo
+###  Algorimo
 
-> ✏️ *Escribe aquí tu propia definición de algoritmo con tus palabras.*
-
-<!-- ESPACIO PARA TU DEFINICIÓN
-Ejemplo de lo que puedes incluir:
-- Qué es un algoritmo
-- Sus características principales (finito, ordenado, preciso)
-- Un ejemplo cotidiano que uses de analogía
--->
+Un algortmo es una serie de pasos lógicos en un circuito cerrado que se ejecuta para resolver un problema, paso a paso, sin ambigüedades, todo directo.
+####   ● Ejemplo: Lavarse las manos
+#### 1.- Inicio.
+#### 2.- Abrir el grifo.
+#### 3.- Mojarse las manos.
+#### 4.- Aplicar jabón.
+#### 5.- Frotar las manos.
+#### 6.- Enjuagar.
+#### 7.- Cerrar el grifo.
+#### 8.- Secarse las manos.
+#### 9.- Fin.
 
 ---
 
-### 🔷 Pseudocódigo
+###  Pseudocódigo
 
-> ✏️ *Escribe aquí tu propia definición de pseudocódigo y para qué lo usas.*
+El pseudocódigo es una herramienta que nos sirve como punto de partida a la hora de programar, nos permite generar algoritmos en español para enteneder como funcionan estos y ser capaces de ver errores o la forma de simplificar nuestros algoritmos. Es como aprender reglas o frases comúnes a lo hora de querer aprender un nuevo idioma, ya que, es una forma de adentrarnos en un nuevo campo.
 
-<!-- ESPACIO PARA TU DEFINICIÓN
-Puedes incluir:
-- Qué es el pseudocódigo
-- Cómo lo usas en PseInt
-- Por qué es útil antes de codificar
--->
 
 ---
 
