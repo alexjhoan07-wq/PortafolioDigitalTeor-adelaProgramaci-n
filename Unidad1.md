@@ -32,167 +32,185 @@ Un algortmo es una serie de pasos lógicos en un circuito cerrado que se ejecuta
 
 El pseudocódigo es una herramienta que nos sirve como punto de partida a la hora de programar, nos permite generar algoritmos en español para enteneder como funcionan estos y ser capaces de ver errores o la forma de simplificar nuestros algoritmos. Es como aprender reglas o frases comúnes a lo hora de querer aprender un nuevo idioma, ya que, es una forma de adentrarnos en un nuevo campo.
 
+<img width="682" height="491" alt="Captura de pantalla 2026-04-26 223907" src="https://github.com/user-attachments/assets/14e70572-b268-4fd4-9045-3eb439223e18" />
+
+Este es un algoritmo utilizando Pseint que es un pseudocódigo que nos permite ambientarnos en la programación, como se ve resuelve un problema tal como se lo haría con un lenguaje de alto nivel, claro que de una forma más simple.
+
 
 ---
 
-### 🔷 Diagrama de Flujo
+### Diagrama de Flujo
 
-> ✏️ *Escribe aquí tu definición de diagrama de flujo e incluye los símbolos que usas.*
+Los diagramas de flujo son mapas estructurados que pueden ser creados directamente para plantear una idea o realizarlos a partir de un algoritmo para entender el proceso de este. El fin de estos es tener una vista mas general de nuestro algoritmo.
 
-<!-- ESPACIO PARA TU DEFINICIÓN
-Puedes incluir:
-- Qué es un diagrama de flujo
-- Los símbolos principales (inicio/fin, proceso, decisión, E/S)
-- Una imagen de ejemplo si tienes una captura propia
--->
+<img width="430" height="687" alt="Captura de pantalla 2026-04-26 224115" src="https://github.com/user-attachments/assets/19f918cc-dfd9-45a2-af4c-0f7f2c53e350" />
+
+En este diagrama de flujo se identifica el proceso completo de un algoritmo y respetando la definición de este, tiene un inicio y final.
 
 ---
 
-### 🔷 Prueba de Escritorio
+###  Prueba de Escritorio
 
-> ✏️ *Describe con tus palabras qué es la prueba de escritorio y cuándo la aplicas.*
-
-<!-- ESPACIO PARA TU DEFINICIÓN
-Puedes incluir:
-- Qué es la prueba de escritorio
-- Cómo se registran los valores de las variables paso a paso
-- Para qué sirve antes de ejecutar el programa
--->
+Es una prueba manual que se hace para obtener resultados y posteriormente compararlos con la ejecución del algoritmo, así para identifiar si existe algún error en este o funciona perfectamente.
 
 ---
 
-### 🔷 Lenguajes de Programación
+###  Lenguajes de Programación
 
-> ✏️ *Explica qué son los lenguajes de programación y menciona los que has visto en clase.*
-
-<!-- ESPACIO PARA TU DEFINICIÓN
-Puedes incluir una tabla como esta y completarla:
+Los lenguajes de programación son herramientas que permiten la resolución de problemas a partir de la creación de software.
 -->
 
 | Lenguaje | Tipo | Lo que aprendí de él |
 |----------|------|----------------------|
-| **C** | Compilado | <!-- Tu descripción --> |
-| <!-- otro --> | <!-- tipo --> | <!-- descripción --> |
+| **C** | Compilado | Permite un control directo sobre la memoria y el hardware. |
+| **Java** | Compilado/Interpretado | Fuertemente tipado, orientado a objetos. |
+| **Python** | Interpretado | Redacción simple y legible, con indentación significativa. |
+---
+
+###  Programación por Bloques
+
+La programación por bloques permite aprender de manera visual y sencilla cómo se construye una secuencia de pasos. En lugar de redactar instrucciones con palabras, se utilizan bloques gráficos que representan acciones y que se pueden arrastrar y encajar unos con otros. Esta forma de trabajar facilita comprender la lógica de un programa, ya que muestra cómo las piezas se conectan para formar un procedimiento completo.
 
 ---
 
-### 🔷 Programación por Bloques
+##  Ejercicio con Estructura Secuencial — Lenguaje C
 
-> ✏️ *Explica con tus palabras qué es la programación por bloques y qué herramienta usaste.*
+###  Planteamiento del Problema
 
-<!-- ESPACIO PARA TU DEFINICIÓN
-Puedes incluir:
-- Qué es la programación por bloques
-- Qué herramienta usaron (Scratch, etc.)
-- Una captura de algún programa que hayas hecho si tienes
--->
+Desarrollar un programa en lenguaje C que permita calcular la distancia euclidiana entre dos puntos en el plano cartesiano. El usuario deberá ingresar las coordenadas de dos puntos P1(x1, y1) y P2(x2, y2), y el programa mostrará la distancia entre ellos.
 
 ---
 
-## 💻 Ejercicio con Estructura Secuencial — Lenguaje C
+###  Análisis del Problema
 
-### 📌 Planteamiento del Problema
-
-<!-- ESPACIO: Describe aquí el problema que vas a resolver.
-Ejemplo de formato:
-"Desarrollar un programa en C que ..."
-Incluye el contexto, los datos que se piden y qué debe mostrar el programa.
--->
-
-> ✏️ *Tu planteamiento del problema aquí.*
+- **Entradas**: Coordenadas enteras  
+  - Punto 1: (x1, y1)  
+  - Punto 2: (x2, y2)  
+- **Proceso**: Aplicar la fórmula de distancia euclidiana  
+- **Salida**: Valor decimal `d` que representa la distancia entre los dos puntos  
 
 ---
 
-### 🔍 Análisis del Problema
+## 📐 Fórmula
+La distancia entre dos puntos se calcula con:
 
-<!-- ESPACIO: Completa la siguiente tabla con los datos de tu problema -->
 
-| Elemento | Descripción |
-|----------|-------------|
-| **Entradas** | <!-- Las variables que el usuario ingresa --> |
-| **Proceso** | <!-- La operación o fórmula que aplicas --> |
-| **Salidas** | <!-- Lo que muestra el programa --> |
 
-> 📐 **Fórmula / Lógica:** `<!-- Tu fórmula aquí -->`
+\[
+d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}
+\]
+
 
 ---
 
-### 🗺️ Diseño del Algoritmo
+###  Diseño del Algoritmo
 
 #### Pseudocódigo en PseInt
 
-<!-- ESPACIO: Pega aquí tu pseudocódigo de PseInt -->
+Algoritmo DistanciaEntreDosPuntos
 
-```pseint
-// Tu pseudocódigo aquí
-Algoritmo NombreDelAlgoritmo
+    // Declaración de variables
+    Definir x1, x2, y1, y2 Como Entero
+    Definir d Como Real
 
-    // ...
+    // Entrada de datos
+    Escribir "Ingrese la coordenada x1:"
+    Leer x1
+    Escribir "Ingrese la coordenada y1:"
+    Leer y1
+    Escribir "Ingrese la coordenada x2:"
+    Leer x2
+    Escribir "Ingrese la coordenada y2:"
+    Leer y2
+
+    // Proceso
+    d <- raiz( ((x2 - x1) ^ 2) + ((y2 - y1) ^ 2) )
+
+    // Salida
+    Escribir "La distancia entre los dos puntos es: ", d
 
 FinAlgoritmo
-```
 
 #### Diagrama de Flujo
 
-<!-- ESPACIO: Inserta aquí la imagen de tu diagrama de flujo
-Puedes subirla a tu repo y referenciarla así:
-![Diagrama de flujo](./imagenes/diagrama.png)
-O desde GitHub directamente si la subiste como asset.
--->
+<img width="412" height="657" alt="image" src="https://github.com/user-attachments/assets/be80f2a6-c61b-45c7-8279-f4d5825a28f1" />
 
-> 🖼️ *Inserta aquí la imagen de tu diagrama de flujo.*
 
-<!-- ![Diagrama de flujo](./imagenes/diagrama_flujo.png) -->
 
 ---
 
 ### ⌨️ Codificación — Código Fuente en C
 
-<!-- ESPACIO: Pega aquí tu código fuente en C -->
 
-```c
+
+```
 #include <stdio.h>
-
-int main() {
-    // Tu código aquí
-
-    return 0;
-}
+#include <math.h>
+    int  main() {
+        //Variables
+        int x1, x2, y1, y2;
+        float d;
+        //Datos de entrada
+        printf("Ingrese las cordenadas de x1\n");
+        scanf("%i", &x1);
+        printf("Ingrese las cordenadas de y1\n");
+        scanf("%i", &y1);
+        printf("Ingrese las cordenadas de x2\n");
+        scanf("%i", &x2);
+        printf("Ingrese las cordenadas de y2\n");
+        scanf("%i", &y2);
+        //Procedimiento
+        d= sqrt(((x2-x1)*(x2-x1))+((y2-y1)*(y2-y1)));
+        //salida
+        printf("La distancia entre los dos puntos es: %f", d);
+        return 0;
+    }
 ```
 
 ---
 
-### ✅ Validación — Prueba de Escritorio
+###  Validación — Prueba de Escritorio
 
-<!-- ESPACIO: Completa la tabla con los valores de prueba que usaste -->
 
-> **Datos de prueba:** <!-- Ej: variable1 = `valor` · variable2 = `valor` -->
 
-| Paso | Instrucción | <!-- Variable 1 --> | <!-- Variable 2 --> | <!-- Variable resultado --> |
-|------|-------------|---------------------|---------------------|------------------------------|
-| 1 | <!-- --> | <!-- --> | <!-- --> | <!-- --> |
-| 2 | <!-- --> | <!-- --> | <!-- --> | <!-- --> |
-| 3 | <!-- --> | <!-- --> | <!-- --> | <!-- --> |
+> **Datos de prueba:** Datos de prueba: x1 = 1 · y1 = 2 · x2 = 4 · y2 = 6
+
+| Paso | Instrucción ejecutada | Resultado |
+|------|------------------------|-----------|
+| 1    | Declarar variables     | x1, y1, x2, y2, d |
+| 2    | scanf → x1             | x1 = 1 |
+| 3    | scanf → y1             | y1 = 2 |
+| 4    | scanf → x2             | x2 = 4 |
+| 5    | scanf → y2             | y2 = 6 |
+| 6    | (x2 - x1)              | 4 - 1 = 3 → 3² = 9 |
+| 7    | (y2 - y1)              | 6 - 2 = 4 → 4² = 16 |
+| 8    | Suma de cuadrados      | 9 + 16 = 25 |
+| 9    | sqrt(25)               | d = 5.000000 |
+| 10   | printf                 | Imprime resultado → 5.000000 |
+
 
 **Salida esperada en consola:**
 
 ```
-// Pega aquí la salida que muestra tu programa al ejecutarlo
+Ingrese las cordenadas de x1
+1
+Ingrese las cordenadas de y1
+2
+Ingrese las cordenadas de x2
+4
+Ingrese las cordenadas de y2
+6
+La distancia entre los dos puntos es: 5.000000
 ```
 
 ---
 
-## 🤔 Principales Dificultades y Reflexión Crítica
+##  Principales Dificultades y Reflexión Crítica
 
-<!-- ESPACIO: Escribe aquí tu reflexión personal.
-Puedes guiarte con estas preguntas:
-- ¿Qué fue lo más difícil de aprender en esta unidad?
-- ¿Cómo lo superaste?
-- ¿Para qué te sirve esto en tu carrera o en el trabajo?
-- ¿Qué cambiarías de tu proceso de aprendizaje?
--->
+Mi principal dificultad fue en el lenguaje C, ya que, no sabía la función de las bibliotecas, hasta que en el ejercicio realizado anteriormente se uso otra bibioteca aparte de <stdio.h> esta fue <math.h> donde entendí que las bibliotecas duncionan como pequeños diccionarios que permiten funciones específicas.
 
-> ✏️ *Tu reflexión crítica aquí.*
+Como reflexión general de la asignatura entiendo que es importante la ambientación en los diferentes tipos de lenguajes de programación y como operan estos, ya que, entender como funcionan nos permite saber en que podemos equivocarnos. En si la asignatura se me ha echo demasiado interesante ya que es como aprender nuevos idiomas.
+
 
 ---
 
