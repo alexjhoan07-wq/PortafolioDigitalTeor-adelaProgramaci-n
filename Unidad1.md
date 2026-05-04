@@ -71,6 +71,9 @@ Los lenguajes de programación son herramientas que permiten la resolución de p
 
 La programación por bloques permite aprender de manera visual y sencilla cómo se construye una secuencia de pasos. En lugar de redactar instrucciones con palabras, se utilizan bloques gráficos que representan acciones y que se pueden arrastrar y encajar unos con otros. Esta forma de trabajar facilita comprender la lógica de un programa, ya que muestra cómo las piezas se conectan para formar un procedimiento completo.
 
+<img width="944" height="436" alt="Captura de pantalla 2026-05-04 031848" src="https://github.com/user-attachments/assets/a798ea6e-6ff6-4314-a731-799e88439c52" />
+
+
 ---
 
 ##  Ejercicio con Estructura Secuencial — Lenguaje C
